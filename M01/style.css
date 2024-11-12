@@ -1,0 +1,101 @@
+*{
+    overflow-x: hidden; 
+  
+ }
+ .pfpcontainer{
+     text-align: right;
+ }
+ .logoContainer{
+     padding: 100px;
+     text-align: center;
+ }
+ 
+ .logo{
+     width: 800px;
+     height: 1000px;
+ }
+ 
+ .buttoncontainer{
+     text-align: center;
+ }
+ 
+ .friendsButton{
+     width: 280px;
+     height: 90px;
+ }
+ 
+ .logohomecontainer{
+     text-align: left;
+ }
+ .pfpListContainer{
+     text-align: center;
+ }
+ .friendListContainer{
+     background-color: white; 
+     height: 95px;
+     border-radius: 20px;
+ }
+ .formContainer{
+    text-align: center;
+ }
+ 
+ .textInput{
+    border-radius: 20px;
+    border-style: none;
+    width: 340px;
+    height: 60px;
+    padding-left: 10px;
+    
+}
+.textInput::placeholder{
+    padding-left: 10px;
+}
+.loginButton{
+    background-color: #5E17EB !important; 
+    color: white !important; 
+    height: 90px; 
+    width: 280px; 
+    border-radius: 20px !important;
+}
+.signUpContainer{
+    padding-top: 10px;
+}
+.signUp{
+    text-decoration: none;
+    color: #d9d9d9;
+}
+.signUp:hover{
+    color: #5E17EB;
+}
+.loginButtonLink{
+    text-decoration: none;
+
+}
+
+.signUpInput{
+    border-radius: 20px;
+    border-style: none;
+    
+}
+.signUpText{
+    font-size: 30px;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    .pfp{
+        width: 80px;
+        height: 80px;
+    }
+
+    .textInput{
+        width: 250px;
+        height: 50px;
+    }
+
+    .loginButton{
+        height: 70px; 
+        width: 180px; 
+
+    }
+
+}
