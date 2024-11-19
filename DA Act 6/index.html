@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yapper</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="shadow navbar navbar-light navbar-expand-lg navBar" id="navBar">
+    <div class="container-fluid p-3">
+      <div class="navbar-brand"><img src="imgs/yapperlogo_navbar.png"></div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-item nav-link" href="#home"><b>HOME</b></a>
+          <a class="nav-item nav-link" href="#about"><b>MESAGES</b></a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <b>FRIENDS</b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="friends.php">FRIENDS</a></li>
+              <li><a class="dropdown-item" href="pendingfriends.php">PENDING</a></li>
+              <li><a class="dropdown-item" href="friendsuggestion.php">ADD FRIENDS</a></li>
+            </ul>
+          </li>
+
+          <a class="nav-item" href="#"><button class="btn custom-btn viewProfileBtn"><img src="imgs/nopfp.png"
+                style=" height: 50px; width: 50px;"></button></a>
+          <a class="nav-item" href="#"><button class="btn custom-btn logoutBtn"><b>Log Out</b></button></a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Profile Container -->
+  <div class="row p-5" style="text-align: center;">
+    <div class="container-fluid profileContainer">
+      <div class="row p-3" style="border-radius: 30px 30px 0 0;" >
+        <div class="col-12 col-sm-5 col-md-2 col-lg-2 col-xl-2">
+          <div class="container profilePicContainer"><img src="imgs/nopfp.png"></div>
+        </div>
+        <div class="col-12 col-sm-7 col-md-10 col-lg-10 col-xl-10" >  
+            <div class="container nameContainer" style="text-align: left;">
+              <p class="name">Zhongli Morax</p>
+              <p class="userName">@moraxnomora</p>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-5" >
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5">
+          <div class="container" style="text-align: center;">
+            <p class="firstName"><b>First Name:</b>  &nbsp;Zhongli</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5" >  
+            <div class="container" style="text-align: center;">
+              <p class="lastName"><b>Last Name:</b> &nbsp; Morax</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="row" >
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5">
+          <div class="container" style="text-align: center;">
+            <p class="birthDay"><b>Birthday:</b>  &nbsp;2021-12-31</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5" >  
+            <div class="container" style="text-align: center;">
+              <p class="addRess"><b>Address:</b> &nbsp; Sto. Tomas Batangas</p>
+            </div>
+
+        
+        </div>
+      </div>
+      <div class="row mt-5" >
+        <div class="container deleteBtnContainer">
+          <button type="submit" class="btn custom-btn btn-lg deleteButton" name="deleteButton"><b>DELETE ACCOUNT</b></button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
