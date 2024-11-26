@@ -15,8 +15,9 @@
 
 .viewProfileBtn{
     border-radius: 100% !important; 
-    height: 50px !important; 
-    width: 50px !important; 
+    height: 60px !important; 
+    width: 60px !important; 
+    overflow: hidden;
     display: flex; 
     justify-content: center; 
     align-items: center;
